@@ -6,7 +6,7 @@ import org.junit.Test;
 
 public class SimpleClassTest {
     @Test
-    public void testSanity() {
+    public void testExample() {
         final SimpleClass simple = new SimpleClass("1234");
 
         Assert.assertThat(simple.getValue(), Matchers.is("1234"));
