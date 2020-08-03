@@ -2,6 +2,14 @@
 
 This is a template for a coding dojo. The language is Java.
 
+Maven package with
+* JUnit 5
+* Hamcrest
+* Mockito
+
+### References
+* See [this article](https://www.infoworld.com/article/3537563/) for a quick overview on the used libraries.
+
 ## License
 
 [![License][license-image]][license-url]
