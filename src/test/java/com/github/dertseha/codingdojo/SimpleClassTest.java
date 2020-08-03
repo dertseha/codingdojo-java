@@ -7,8 +7,8 @@ import org.junit.Test;
 public class SimpleClassTest {
     @Test
     public void testSanity() {
-	final SimpleClass simple = new SimpleClass("1234");
+        final SimpleClass simple = new SimpleClass("1234");
 
-	Assert.assertThat(simple.getValue(), Matchers.is("1234"));
+        Assert.assertThat(simple.getValue(), Matchers.is("1234"));
     }
 }
